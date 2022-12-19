@@ -14,6 +14,7 @@ Preliminary render
         * slow clock
         * the safety scan chain pins (all those starting with ext_scan...)
 * Lots of explanatory silkscreen
+    * board version and link to this repo on the silkscreen
 * USB C PSU, 3.3v and 1.8v
 * Adjustable clock / single step
 * 9 DIP switch for design select (or jumpers)
@@ -25,6 +26,7 @@ Preliminary render
 * Flash for firmware used to setup GPIO
 * Want to ship everything done - no soldering.
 * Done in Kicad for easy contributions
+    * all libs and necessary stuff should be in this repo for easy reproducibility
 * Should work for TT01 and TT02, only difference is TT02 is QFN and TT01 is WLCSP.
 
 ## Extras
