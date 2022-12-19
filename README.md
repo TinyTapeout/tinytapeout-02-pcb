@@ -13,6 +13,7 @@ Preliminary render
         * ready - the sync pulse when the chain is updated
         * slow clock
         * the safety scan chain pins (all those starting with ext_scan...)
+    * Expose flash programming on a standard cheap footprint for some common USB FTDI programmer
 * Lots of explanatory silkscreen
     * board version and link to this repo on the silkscreen
 * USB C PSU, 3.3v and 1.8v
