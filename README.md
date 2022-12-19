@@ -28,6 +28,10 @@ Preliminary render
 * Done in Kicad for easy contributions
     * all libs and necessary stuff should be in this repo for easy reproducibility
 * Should work for TT01 and TT02, only difference is TT02 is QFN and TT01 is WLCSP.
+* Physical size - to fit in this box:
+    * The white box: https://www.ebay.co.uk/itm/321672513998?var=510575821324
+    * External size: 23cm x 16.5cm x 2.2cm (9" x 6.5" x 0.8") - LARGE LETTER QUALIFYING
+    * Internal size: 22.5cm x 16cm x 2cm
 
 ## Extras
 
