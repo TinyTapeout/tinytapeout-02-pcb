@@ -8,21 +8,36 @@ Preliminary render
 
 * We also have some [ideas on the discord](https://discord.com/channels/1009193568256135208/1011201396659474432).
 * Connectors / switches from wuerth
+* Lots of testpoints, big ground pads
+    * Expose useful signals from ASIC:
+        * ready - the sync pulse when the chain is updated
+        * slow clock
+        * the safety scan chain pins (all those starting with ext_scan...)
+* Lots of explanatory silkscreen
 * USB C PSU, 3.3v and 1.8v
 * Adjustable clock / single step
 * 9 DIP switch for design select (or jumpers)
 * 8 DIP switch for inputs - should last for some fiddling but don’t need to be too heavy duty - could be buttons.
+* also need to be able to enable clock divider: set_clk_div 
 * 8 LEDs for outputs: 7 segment display inc dot
 * Include PMOD headers for IOs, but better if single inline for breadboarding
     * Pluggable into breadboard 
 * Flash for firmware used to setup GPIO
 * Want to ship everything done - no soldering.
 * Done in Kicad for easy contributions
+* Should work for TT01 and TT02, only difference is TT02 is QFN and TT01 is WLCSP.
+
+## Extras
+
+* Would be nice to have a breakout board with an FPGA on board, so we could test everything before the chips arrive.
+* Unpopulated PMOD? for people doing testing on FPGA
+* 'Special' clock ? Like an unpopulated SMA that connects to input 0?
+* Pi Pico footprint
 
 # Resources
 
 * Omer's breakout https://github.com/omerk/caravel-breakout
-* TT02 chip pinout https://github.com/TinyTapeout/tinytapeout-mpw7/blob/mpw7/INFO.md#pinout
+* TT02 chip pinout https://github.com/TinyTapeout/tinytapeout-02/blob/tt02/INFO.md#pinout
 * Caravel pinout https://caravel-harness.readthedocs.io/en/latest/pinout.html
 * Matt's VGA clock board (untested): https://github.com/mattvenn/vga_clock_pcb
 * Efabless caravel hardware: https://github.com/efabless/caravel_board
