@@ -33,6 +33,8 @@ Preliminary render
     * The white box: https://www.ebay.co.uk/itm/321672513998?var=510575821324
     * External size: 23cm x 16.5cm x 2.2cm (9" x 6.5" x 0.8") - LARGE LETTER QUALIFYING
     * Internal size: 22.5cm x 16cm x 2cm
+* Design for test - single sided probe test points, mounting / alignment holes. 
+    * Consider how will we validate a small run (less than 300).
 
 ## Extras
 
